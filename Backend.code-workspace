@@ -1,11 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "Backend"
-		},
-		{
-			"path": "Cliente"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "Backend",
+    },
+    {
+      "path": "Cliente",
+    },
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Backend",
+  },
 }

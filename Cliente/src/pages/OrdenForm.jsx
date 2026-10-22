@@ -62,7 +62,7 @@ export default function OrdenForm() {
 
       <input
         name="placa_vehiculo"
-        placeholder="Placa (ABC123)"
+        placeholder="Placa(ABC123)"
         value={orden.placa_vehiculo}
         onChange={handleChange}
         required

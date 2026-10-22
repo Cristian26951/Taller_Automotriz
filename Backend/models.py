@@ -11,4 +11,4 @@ class UpdateOrdenServicio(BaseModel):
     placa_vehiculo: Optional[str] = None
     descripcion_falla: Optional[str] = None
     costo_estimado: Optional[float] = None
-    reaprado: Optional[bool] = None
+    reparado: Optional[bool] = None

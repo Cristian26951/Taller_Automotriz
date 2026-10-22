@@ -2,7 +2,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from decouple import config
 from bson import ObjectId
 
-client = AsyncIOMotorClient(config("MONGO_URL"))
+client = AsyncIOMotorClient(config("MONGO_URI"))
 db = client.taller_db
 coleccion = db.ordenes
 

@@ -7,5 +7,5 @@ const api = axios.create({
 export const fetchOrdenes = () => api.get("");
 export const fetchOrden = (id) => api.get(`/${id}`);
 export const createOrden = (orden) => api.post("", orden);
-export const updateTarea = (id, orden) => api.put(`/${id}`, orden);
+export const updateOrden = (id, orden) => api.put(`/${id}`, orden);
 export const deleteOrden = (id) => api.delete(`/${id}`);
